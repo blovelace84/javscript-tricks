@@ -1,7 +1,5 @@
-var name = ["John Smith", "Mary Gao", "Todd Jordan"];
+const family = ["Brittani", "Derrick", "Keischa", "Keischa","Naomi"];
 
-for(var i = 0; i < name.length; i++){
-    console.log(name[i]);
+if(family.indexOf("Keischa") !== -1) {
+    console.log("Keischa is in the family array");
 }
-
-console.log("We're Done!");
